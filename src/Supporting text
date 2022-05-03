@@ -35,4 +35,13 @@ Double myDouble = 5d
 ****************NOTE*****************
 In general float and double are great for general floating point operations, however both are not great where precise calculations
 are required, this is a limitation with how floating point numbers are stored, and not a java thing. In order to
-mitigate this Java has a class called BigDecimal that overcomes this. Currency calculations should not use floating point. 
+mitigate this Java has a class called BigDecimal that overcomes this. Currency calculations should not use floating point.
+
+
+++Char
+Char refers to Unicode values where Unicode is an international encoding standard for use with languages and scripts, by which each letter, digit
+or symbol is assigned a unique numeric value that applies across multiple platforms  and programs.
+
+Not though that although English there are 26 characters, there are other languages that have a lot more. Unicode allows
+us to represent these and they way it does this is the combination of two Bytes that a char can make up in memory giving us access to 65535 different
+types of chars
