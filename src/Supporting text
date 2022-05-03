@@ -32,4 +32,7 @@ float myFloat = 5
 same as float myFloat = 5f
 Double myDouble = 5d
 
-
+****************NOTE*****************
+In general float and double are great for general floating point operations, however both are not great where precise calculations
+are required, this is a limitation with how floating point numbers are stored, and not a java thing. In order to
+mitigate this Java has a class called BigDecimal that overcomes this. Currency calculations should not use floating point. 
