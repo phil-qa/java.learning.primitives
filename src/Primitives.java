@@ -3,15 +3,7 @@ public class Primitives {
     public static void main (String[] args){
         //Primitives - Int Float Long Byte Double Short boolean char
         /*
-        byte: The byte data type is an 8-bit signed two's complement integer.
-         It has a minimum value of -128 and a maximum value of 127 (inclusive).
-         The byte data type can be useful for saving memory in large arrays, where the memory savings actually matters. They can also be used in place of int where their limits help to clarify your code; the fact that a variable's range is limited can serve as a form of documentation.
-            review the primitive max and mins and observe the behaviour for breaking them
 
-        short: The short data type is a 16-bit signed two's complement integer.
-            It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).
-            As with byte, the same guidelines apply: you can use a short to save memory in large arrays,
-            in situations where the memory savings actually matters.
 
          */
         byte minByte = Byte.MIN_VALUE;
